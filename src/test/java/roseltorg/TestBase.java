@@ -55,5 +55,4 @@ public class TestBase {
          driver.switchTo().window(winHandle);
       }
    }
-
 }

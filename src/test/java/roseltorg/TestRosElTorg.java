@@ -1,12 +1,11 @@
 package roseltorg;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
 
 public class TestRosElTorg extends TestBase {
 
    @Test
-   public void signUp() throws InterruptedException {
+   public void signUp()  {
 
       textInput(driver, yaInput, company);
 
@@ -20,5 +19,4 @@ public class TestRosElTorg extends TestBase {
       clickAbility(driver, etp);
       visAbility(driver, fin);
    }
-
 }
